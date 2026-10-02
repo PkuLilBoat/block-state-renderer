@@ -1,0 +1,10 @@
+{
+	"id": "block-state-renderer",
+	"name": "Block state renderer",
+	"version": "0.1.0",
+	"minAppVersion": "1.13.0",
+	"description": "Render task, PRD, and custom tag states on editable nested list blocks.",
+	"isDesktopOnly": false,
+	"author": "Shen (PkuLilBoat)",
+	"authorUrl": "https://github.com/PkuLilBoat"
+}
