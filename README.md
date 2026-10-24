@@ -1,6 +1,22 @@
+<img src="assets/community-banner.png" alt="Learning and creating in the AI era" width="680">
+
+<table><tr><td width="180"><img src="assets/wechat.jpg" alt="WeChat community QR code" width="156"></td><td>Scan the QR code to join our lifelong learning community and discussion groups.<br>Let's exchange ideas about AI, knowledge management, and productivity tools.<br>WeChat Official Account: 湖畔的赛博格 (same name).</td></tr></table>
+
+---
+
 # Block state renderer
 
+English | [简体中文](README.zh-CN.md)
+
 Color task, product-decision, and custom-tag states in editable nested lists in Obsidian Live Preview. Child blocks inherit the nearest ancestor state; an explicit child state overrides it. Your Markdown and original tags stay editable.
+
+## Screenshots
+
+Task and PRD states in Live Preview: nested items inherit their parent state, and explicit child states override it.
+
+![Task and PRD state rendering in editable nested lists](assets/screenshots/state-rendering.png)
+
+Captured in Obsidian 1.14.4 with the GitHub 0.1.0 release and sample notes in an isolated TEST vault.
 
 ## Quick start
 
@@ -55,19 +71,13 @@ For manual installation, download `main.js`, `manifest.json`, and `styles.css` f
 
 ## Privacy and compatibility
 
-The plugin makes no network requests, collects no telemetry, and requires no account. It stores file-level switches and preferences in its plugin settings, and writes the vault-root color-rules JSON when you edit custom rules. It does not rewrite note Markdown. The optional WeChat community below is independent of plugin use.
+The plugin makes no network requests, collects no telemetry, and requires no account. It stores file-level switches and preferences in its plugin settings, and writes the vault-root color-rules JSON when you edit custom rules. It does not rewrite note Markdown. The optional WeChat community is independent of plugin use.
 
 Existing desktop TEST evidence covers light/dark themes, file switches, settings persistence, nested inheritance, custom colors, and disable/reload behavior. Mobile devices, the exact minimum app version, third-party themes, and large-document performance have not been fully tested. The initial gradient design may evolve with feedback.
 
-## 中文说明与交流群
+## Community and feedback
 
-在可编辑的 Live Preview 中，为任务状态、产品决策状态和自定义标签添加颜色。父级状态向下继承，子级显式标签覆盖父级；原始 Markdown 和标签保持可编辑。首次使用请运行命令面板中的 **Toggle state rendering for current file** 开启当前文件渲染。
-
-**扫描下方二维码添加我的微信，可加入终身学习者群、交流群，一起交流学习、Obsidian、知识管理与效率工具。**
-
-<img src="assets/wechat.jpg" alt="舟微信：添加微信加入终身学习者群、交流群" width="280" />
-
-Bug reports and feature requests are welcome in [GitHub Issues](https://github.com/PkuLilBoat/block-state-renderer/issues).
+Bug reports and feature requests are welcome in [GitHub Issues](https://github.com/PkuLilBoat/block-state-renderer/issues). Joining the community is optional and is not required to use the plugin.
 
 ## Development
 
